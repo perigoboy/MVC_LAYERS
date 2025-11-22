@@ -1,5 +1,5 @@
 // Em produção, troque essa URL pela URL do Railway/Render
-const API_URL = 'http://localhost:3000'; 
+const API_URL = 'https://mvc-layers-trabalho.onrender.com'; 
 
 async function carregarTarefas() {
     const response = await fetch(`${API_URL}/tasks`);
